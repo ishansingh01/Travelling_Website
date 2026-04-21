@@ -149,8 +149,13 @@ footer{
         text-align: center;
     }
     .nav-links{
-        flex-direction: column;
-        gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+    .header.nav-links{
+        display: inline;
     }
     .hero{
         padding: 80px 10px;
